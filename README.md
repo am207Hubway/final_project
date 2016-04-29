@@ -22,6 +22,13 @@ Overview of Methods and Analyses we’ll perform (with contributor highlighted t
 - Using GPs to interpolate missing data *(Taylor, ?)*
 - Similar to the yelp check-in problem, use GP interpolation to infer station capacity both in terms of pick-ups and drop-offs. *(Taylor, Jonathan)*
 	- Will leverage PyMC here.
+    
+*For those who aim to create videos out of .png files (run in command line)*
+brew install ffmpeg
+[navigate to the directory of your images]
+ffmpeg -framerate 1 -i figure%03d.png -c:v libx264 -r 4 -pix_fmt yuv420p out.mp4
+[There is a lot of information and instructions at https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images]
+
 
 
 
