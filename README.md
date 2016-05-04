@@ -13,6 +13,8 @@ All data we generated such as timeseries are stored in data/
 
 All videos and other images are stored in images/
 
+Our screencast can be found at: https://youtu.be/mCAfvDxA3w8
+
 Feel free to contact any of the repository contributors if you have questions.
 
 -SD, JF, TK, AP
