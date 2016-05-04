@@ -17,33 +17,39 @@ Feel free to contact any of the repository contributors if you have questions.
 
 -SD, JF, TK, AP
 
-[//]: <> Overview of Methods and Analyses we’ll perform (with contributor highlighted to the right)
+[//]: # (Overview of Methods and Analyses we’ll perform (with contributor highlighted to the right))
 
-[//]: <> **Exploratory Data Analysis** *(Taylor, ?)*
+[//]: # ( **Exploratory Data Analysis** *(Taylor, ?)*)
 
-[//]: <> - Get a sense of the periodicity of the data, what stations are heavily used at which times. What are the most likely pick up and drop off zones? Can use www.hubwaydatachallenge.org www.bostonography.com/hubwaymap (among other works) to get a sense of what’s out there.
-[//]: <> - Key output of this will be Station/System Usage Rates in terms of time series, histograms and maps (to be used for poster, paper and future time series analysis)
+[//]: # ( - Get a sense of the periodicity of the data, what stations are heavily used at which times. What are the most likely pick up and drop off zones? Can use www.hubwaydatachallenge.org www.bostonography.com/hubwaymap (among other works) to get a sense of what’s out there.)
 
-[//]: <> **Simulated Annealing/Stochastic Sampling** 
+[//]: # ( - Key output of this will be Station/System Usage Rates in terms of time series, histograms and maps (to be used for poster, paper and future time series analysis))
 
-[//]: <> - Finding optimal location for extra service (helmet rental) based on ridership data *(Andrew, ?)*
-[//]: <> - Use complete pooling, unpooling and partial pooling sampling methods in order to get a sense of whether the capacity of any one station can be predicted in relation to other stations in the system. *(Jonathan, Taylor, ?) *
+[//]: # ( **Simulated Annealing/Stochastic Sampling** )
 
-[//]: <> **Time Series**
+[//]: # ( - Finding optimal location for extra service (helmet rental) based on ridership data *(Andrew, ?)*)
+[//]: # ( - Use complete pooling, unpooling and partial pooling sampling methods in order to get a sense of whether the capacity of any one station can be predicted in relation to other stations in the system. *(Jonathan, Taylor, ?) *)
 
-[//]: <> - Period matching, randomly select small subset of data (unknown to us, but discoverable), add noise to it and then try to figure out where it came from using something related to Gibbs sampling *(Jonathan, ?)*
-[//]: <> - Given a time series snippet, can we predict how many users will pick-up/drop-off bikes from any given station or from the system at large. *(Andrew, ?)*
+[//]: # ( **Time Series**)
 
-[//]: <> **Gaussian Processes**
-[//]: <> - Using GPs to interpolate missing data *(Taylor, ?)*
-[//]: <> - Similar to the yelp check-in problem, use GP interpolation to infer station capacity both in terms of pick-ups and drop-offs. *(Taylor, Jonathan)*
-[//]: <>	- Will leverage PyMC here.
+[//]: # ( - Period matching, randomly select small subset of data (unknown to us, but discoverable), add noise to it and then try to figure out where it came from using something related to Gibbs sampling *(Jonathan, ?)*)
+
+[//]: # ( - Given a time series snippet, can we predict how many users will pick-up/drop-off bikes from any given station or from the system at large. *(Andrew, ?)*)
+
+[//]: # ( **Gaussian Processes**)
+
+[//]: # ( - Using GPs to interpolate missing data *(Taylor, ?)*)
+
+[//]: # ( - Similar to the yelp check-in problem, use GP interpolation to infer station capacity both in terms of pick-ups and drop-offs. *(Taylor, Jonathan)*)
+
+[//]: # (	- Will leverage PyMC here.)
     
-[//]: <> *For those who aim to create videos out of .png files (run in command line)*
-[//]: <> brew install ffmpeg
-[//]: <> [navigate to the directory of your images]
-[//]: <> ffmpeg -framerate 1 -i figure%03d.png -c:v libx264 -r 4 -pix_fmt yuv420p out.mp4
-[//]: <> [There is a lot of information and instructions at https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images]
+[//]: # ( *For those who aim to create videos out of .png files (run in command line)*)
+
+[//]: # ( brew install ffmpeg)
+[//]: # ( [navigate to the directory of your images])
+[//]: # ( ffmpeg -framerate 1 -i figure%03d.png -c:v libx264 -r 4 -pix_fmt yuv420p out.mp4)
+[//]: # ( [There is a lot of information and instructions at https://trac.ffmpeg.org/wiki/Create%20a%20video%20slideshow%20from%20images])
 
 
 
